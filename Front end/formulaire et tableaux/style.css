@@ -1,0 +1,160 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+.text-center{
+    text-align: center;
+}
+/* Exercice 1 : Page de Contact */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #499f48;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Exercice 2 : Liste de Tâches */
+.task-list {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.task-list th, .task-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.task-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.task-list th {
+    background-color: #499f48;
+    color: white;
+}
+.todo{
+    background-color: #db6b00;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 35%;
+}
+.done{
+    background-color: #33b0a9;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 32%;
+}
+/* Exercice 3 : Formulaire d'Inscription */
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.registration-form label,
+.registration-form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.registration-form input:focus {
+    border-color: #499f48;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #499f48;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style pour les erreurs de validation */
+.registration-form input:invalid {
+    border-color: #ff5722;
+}
+
+.registration-form input:invalid:focus {
+    border-color: #ff5722;
+}
+
+/* Exercice 4 : Tableau de Données */
+.data-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table th {
+    background-color: #499f48;
+    color: white;
+}
+
+/* Exercice 5 : Page de Menu */
+.menu-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.menu-table th {
+    background-color: #499f48;
+    color: white;
+}

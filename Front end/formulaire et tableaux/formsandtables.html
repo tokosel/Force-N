@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices HTML et CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Exercice 1 : Page de Contact</h1>
+    <form class="contact-form">
+        <label for="nom">Nom complet</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <h1>Exercice 2 : Liste de Tâches</h1>
+    <table class="task-list">
+        <tr>
+            <th>Tâche</th>
+            <th>Statut</th>
+        </tr>
+        <tr>
+            <td>Faire les courses</td>
+            <td><span class="todo">À faire</span></td>
+        </tr>
+        <tr>
+            <td>Laver la voiture</td>
+            <td><span class="todo">À faire</span></td>
+        </tr>
+        <tr>
+            <td>Répondre aux e-mails</td>
+            <td><span class="done">Terminé</span></td>
+        </tr>
+        <tr>
+            <td>Passer l'aspirateur</td>
+            <td><span class="done">Terminé</span></td>
+        </tr>
+    </table>
+
+    <h1>Exercice 3 : Formulaire d'Inscription</h1>
+    <form class="registration-form">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm-password">Confirmer le mot de passe</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+        
+        <label for="email-reg">Adresse e-mail</label>
+        <input type="email" id="email-reg" name="email-reg" required><br><br>
+        
+        <input type="submit" value="S'inscrire">
+    </form>
+
+    <h1>Exercice 4 : Tableau de Données</h1>
+    <table class="data-table">
+        <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Stock</th>
+        </tr>
+        <tr>
+            <td>Iphone 15 Pro</td>
+            <td class="text-center">900.000 FCFA</td>
+            <td class="text-center">10</td>
+        </tr>
+        <tr>
+            <td>Samsung S20</td>
+            <td class="text-center">450.000 FCFA</td>
+            <td class="text-center">5</td>
+        </tr>
+        <tr>
+            <td>HP probook</td>
+            <td class="text-center">350.000 FCFA</td>
+            <td class="text-center">8</td>
+        </tr>
+    </table>
+
+    <h1>Exercice 5 : Page de Menu</h1>
+    <table class="menu-table">
+        <tr>
+            <th>Plat</th>
+            <th>Prix</th>
+        </tr>
+        <tr>
+            <td>Spaghetti Bolognese</td>
+            <td class="text-center">1.200 FCFA</td>
+        </tr>
+        <tr>
+            <td>Pizza Margherita</td>
+            <td class="text-center">2.500 FCFA</td>
+        </tr>
+        <tr>
+            <td>Soupe à l'oignon</td>
+            <td class="text-center">1.500 FCFA</td>
+        </tr>
+        <tr>
+            <td>Dibi poulet</td>
+            <td class="text-center">6.000 FCFA</td>
+        </tr>
+    </table>
+
+</body>
+</html>
